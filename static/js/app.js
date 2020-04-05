@@ -19,12 +19,6 @@ function buildMetadata(sample) {
     Object.entries(data).forEach(([key, value]) => {
       PANEL.append("h6").text(`${key}: ${value}`);
     })
-    ///Object.defineProperties(sample).forEach(function ([key, value]) {
-    ///  var row = sample_metadata.append("p");
-    ///  row.text(`${key}: ${value}`);
-    ///})
-    // BONUS: Build the Gauge Chart
-    // buildGauge(data.WFREQ);
   });
 }
 
